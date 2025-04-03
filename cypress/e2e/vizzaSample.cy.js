@@ -37,7 +37,7 @@ describe('vizza portal', () => {
     cy.wait(1000)
   //  cy.xpath("")
   cy.xpath("(//span[text()='Title'])[1]").click();
-  cy.wait(2000);
+  cy.wait(4000);
 
   cy.xpath("(//span[text()=' Mr '])[1]").click();
   cy.wait(1000);
